@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="onSubmit()" #signupForm="ngForm">
+    <ion-list>
+
+      <ion-item>
+        <ion-label position="floating">Login</ion-label>
+        <ion-input type="text" name="login" ngModel required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Mot de passe</ion-label>
+        <ion-input type="password" name="password" ngModel required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Confirmer le mot de passe</ion-label>
+        <ion-input type="password" name="confirmPassword" ngModel required></ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <div class="ion-padding">
+      <ion-button  color="light" routerLink="/login">Annuler</ion-button>
+      <ion-button  type="submit" >Valider</ion-button>
+    </div>
+  </form>
+</ion-content>

@@ -1,0 +1,28 @@
+ion-content {
+  --background: rgb(184,221,111);
+  
+}
+.img_box {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  padding-top: 30px;
+
+}
+img{
+  width: 60%;
+  border-radius:10px;
+
+}
+h1{
+  color: white;
+  margin-left: 20px;
+  font-weight: 800;
+
+}
+p {
+  margin-left: 20px;
+  margin-right: 10px;
+  color:#0c0707e1;
+  font-weight: 300;
+}

@@ -1,0 +1,32 @@
+ion-header {
+    --background: rgba(255, 255, 255, 0.8); /* Effet de fond translucide */
+    backdrop-filter: blur(10px); /* Optionnel : ajoute un effet de flou */
+  }
+  
+  ion-content {
+    --padding-start: 16px;
+    --padding-end: 16px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  ion-item {
+    --background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  ion-button {
+    flex: 1;
+    margin: 0 5px;
+  }
+  
